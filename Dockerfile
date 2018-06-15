@@ -2,7 +2,7 @@ FROM alpine:3.7
 
 MAINTAINER Chris Every <eversmcc@gmail.com>
 
-RUN apk add --no-cache ca-certificates curl openssl
+RUN apk add --no-cache bash ca-certificates curl openssl
 
 ENV HELM_VERSION v2.9.0
 
